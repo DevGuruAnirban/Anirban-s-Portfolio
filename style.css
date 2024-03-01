@@ -73,10 +73,13 @@ body {
   color: #ebf5ee;
 }
 
+.navToggle {
+  display: none;
+}
+
 /*   Hero Section   */
 
 .heroSection {
-  height: 100vh;
   width: 100%;
   padding: 10rem 10rem;
 }
@@ -196,10 +199,8 @@ body {
 
 /*     SERVICES      */
 
-.container2 {
-  display: flex;
-  justify-content: center;
-  font-size: 5rem;
+.serviceHeading {
+  margin-top: 12vw;
 }
 
 .sectionHeading {
@@ -227,7 +228,7 @@ body {
 .serviceLists {
   display: flex;
   justify-content: space-evenly;
-  margin: 0 0 14rem 0;
+  margin-bottom: 14rem;
 }
 
 .serviceLists .list {
@@ -367,14 +368,11 @@ body {
 
 /*     PROJECTS     */
 
-.projectsSection {
-  position: relative;
-}
-
 .item {
   width: 100%;
   height: 32vw;
   display: flex;
+  position: relative;
   margin-bottom: 10vw;
   padding: 0 25vw;
 }
@@ -406,22 +404,22 @@ body {
   height: 25vw;
   position: absolute;
   right: 25vw;
-  top: 21vw;
-  padding: 3vw 2vw 0 2.5vw;
+  top: 3vw;
+  padding: 3vw 1.5vw 1vw 2vw;
   border-radius: 10px;
   background-color: #f3fff7;
   box-shadow: 8px 2px 15px #9e9e9e;
 }
 
 .right h2 {
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0.5px;
   word-spacing: 1px;
   margin-bottom: 0.3rem;
 }
 
 .right h3 {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1.2rem;
   margin-bottom: 1.1rem;
 }
@@ -500,22 +498,22 @@ body {
   height: 25vw;
   position: absolute;
   left: 25vw;
-  top: 63vw;
-  padding: 3vw 2vw 0 2.5vw;
+  top: 3vw;
+  padding: 3vw 1.5vw 1vw 2vw;
   border-radius: 10px;
   background-color: #f3fff7;
   box-shadow: -8px 2px 15px #9e9e9e;
 }
 
 .right2 h2 {
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0.5px;
   word-spacing: 1px;
   margin-bottom: 0.3rem;
 }
 
 .right2 h3 {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1.2rem;
   margin-bottom: 1.1rem;
 }
@@ -526,43 +524,6 @@ body {
 }
 
 .right2 a {
-  padding: 0.8rem 2.2rem;
-  margin-right: 0.8rem;
-  text-decoration: none;
-  border-radius: 50px;
-}
-
-.right3 {
-  width: 29vw;
-  height: 25vw;
-  position: absolute;
-  left: 45vw;
-  top: 105vw;
-  padding: 3vw 2vw 0 2.5vw;
-  border-radius: 10px;
-  background-color: #f3fff7;
-  box-shadow: 8px 2px 15px #9e9e9e;
-}
-
-.right3 h2 {
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  word-spacing: 1px;
-  margin-bottom: 0.3rem;
-}
-
-.right3 h3 {
-  font-weight: 600;
-  font-size: 1.2rem;
-  margin-bottom: 1.1rem;
-}
-
-.right3 p {
-  color: #48464b;
-  margin-bottom: 3vw;
-}
-
-.right3 a {
   padding: 0.8rem 2.2rem;
   margin-right: 0.8rem;
   text-decoration: none;
@@ -632,12 +593,6 @@ body {
   color: #393939;
   word-spacing: 5px;
   transition: all 0.3s ease;
-}
-
-.leftCard span {
-  font-size: 1.2rem;
-  font-weight: 700;
-  margin-top: 2vw;
 }
 
 .rightText {
