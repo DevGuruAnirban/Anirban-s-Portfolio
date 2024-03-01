@@ -1,109 +1,292 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="Image/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="responsive.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.cdnfonts.com/css/giants-personal-use" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
-  <title>Portfolio</title>
-  <link rel="shortcut icon" href="Image/icon.png" type="image/x-icon">
-</head>
-<!-- HEADER SECTION -->
-<header>
-  <nav>
-    <a href="#"><img src="/Image/logo2.png" class="logo"></a>
-    <ul class="sidemenu">
-      <li><a href="#header" class="home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-    <i class="ri-menu-line"></i>
-  </nav>
-</header>
-<!-- HERO SECTION -->
-<section class="hero">
-  <div class="heroShape">
-    <div class="shape1"></div>
-    <div class="shape2"></div>
-  </div>
-   <div class="header-text">
-    <h1>Hi There,<br /> I'm <span class="name">Anirban Banerjee</span></h1>
-    <p> I Am Into <span class="typing-text"> Web Development. </span></p>
-   <a href="#about" class="btn"><span> About Me</span>
-      <i class="fa-regular fa-circle-down"></i>
-    </a>
-    <a href="#"><img src="/Image/heroPicture.png" class="heroPicture" draggable="false"></a>
-    <div class="socials">
-      <a class="linkedin" href="https://www.linkedin.com/in/ani-banerjee/"><i class="fa-brands fa-linkedin"></i></a>
-      <a class="github" href="https://github.com/DevGuruAnirban"><i class="fa-brands fa-github"></i></a>
-      <a class="email" href="mailto: anirbanbanerjee567@gmail.com"><i class="fa-regular fa-envelope"></i></a>
-      <a class="instagram" href="https://www.instagram.com/_anirban_banerjee/"><i
-          class="fa-brands fa-instagram"></i></a>
-      <a class="facebook" href="https://www.facebook.com/profile.php?id=61552739738921"><i
-          class="fa-brands fa-facebook"></i></a>
-    </div>
-  </div>
-</section>
+      <!--    HERO     -->
 
-<!-- ABOUT SECTION -->
-
-<section class="about" id="about">
-  <div class="container-abt">
-    <div class="about-image">
-      <img src="/Image/web-img.png">
-    </div>
-    <div class="about-col-1">
-      <h2 class="section-heading">ABOUT</h2>
-    </div>
-
-    <div class="right">
-      <div class="right-card">
-        <p class="sub-heading">Hello! I am Anirban</p>
-        <h2 class="slogan">A Full-Stack Web Developer</h2>
-        <p class="right-text">
-          Committed and goal-oriented computer science student looking to pursue a career in the Software Development
-          and research domain. Passionate and results-driven web development enthusiast, eager to translate technical
-          aptitude into building dynamic, user-centric web experiences. Developed interactive web pages using ( HTML,
-          CSS, and JavaScript ). Implemented React components to create dynamic user interfaces.
-        </p>
-        <div class="buttons">
-          <a href="./resume.txt" class="primary-btn" download="">Download Resume</a>
-          <a href="./contact.html" class="secondary-btn">Hire Me</a>
+    <section id="navigation">
+      <div class="navBar">
+        <a href="#"
+          ><img src="Image/navLogo.png" class="navLogo" draggable="false"
+        /></a>
+        <div class="sideMenu">
+          <a href="#header">HOME</a>
+          <a href="#services">SERVICES</a>
+          <a href="#projects">PROJECTS</a>
+          <a href="#about">ABOUT</a>
+          <a href="#contact">CONTACT</a>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
+    <section class="heroSection" id="header">
+      <div class="container">
+        <div class="heroText">
+          <h1>
+            Hi There,<br />
+            I'm <span class="name">Anirban Banerjee</span>
+          </h1>
+          <p>I'm Into <span class="subheading"> Web Development. </span></p>
+        </div>
+        <img src="Image/heroPicture.png" class="heroImg" draggable="false" />
 
-<!-- SERVICES SECTION -->
+        <div class="socials">
+          <a class="linkedin" href="https://www.linkedin.com/in/ani-banerjee/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a class="github" href="https://github.com/DevGuruAnirban"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a class="email" href="mailto: anirbanbanerjee567@gmail.com"
+            ><i class="fa-regular fa-envelope"></i
+          ></a>
+          <a
+            class="instagram"
+            href="https://www.instagram.com/_anirban_banerjee/"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            class="facebook"
+            href="https://www.facebook.com/profile.php?id=61552739738921"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </div>
+      </div>
+    </section>
 
-<section class="myservices">
-  <div class="container-ser">
-    <h2 id="services" class="sub-heading2">SERVICES</h2>
-    <div class="services-list">
-      <!-- <div class="web-development">
-        <i class="ri-code-s-slash-line"></i>
-        <h2>Web Development</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo, pariatur autem facere deserunt
-          quibusdam quos necessitatibus quam libero architecto nesciunt, doloremque animi magnam quasi adipisci quae!
-          Error eligendi voluptate quibusdam.</p>
-        <a href="#" class="lrn1">Learn more</a>
-      </div> -->
-<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
-<script src="main.js"></script> 
-</body>
-</html> 
+        <!--     SERVICES     -->
+
+    <section class="sercviceSection" id="services">
+      <div class="container2">
+        <h2 class="sectionHeading" data-outline="Services">Services</h2>
+      </div>
+      <div class="serviceLists">
+        <div class="list">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1"
+              d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+            />
+          </svg>
+          <h3>Web Development</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A magni
+            quod autem placeat vitae repellat aliquam. Veniam qui accusamus non
+            provident harum quidem voluptates quae eaque repudiandae, incidunt
+            quod quo?
+          </p>
+          <a href="#">Read more</a>
+        </div>
+        <div class="list2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1"
+              d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"
+            />
+          </svg>
+          <h3>Web Design</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A magni
+            quod autem placeat vitae repellat aliquam. Veniam qui accusamus non
+            provident harum quidem voluptates quae eaque repudiandae, incidunt
+            quod quo?
+          </p>
+          <a href="#">Read more</a>
+        </div>
+        <div class="list3">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+          >
+            <path
+              d="M12 2C17.5222 2 22 5.97778 22 10.8889C22 13.9556 19.5111 16.4444 16.4444 16.4444H14.4778C13.5556 16.4444 12.8111 17.1889 12.8111 18.1111C12.8111 18.5333 12.9778 18.9222 13.2333 19.2111C13.5 19.5111 13.6667 19.9 13.6667 20.3333C13.6667 21.2556 12.9 22 12 22C6.47778 22 2 17.5222 2 12C2 6.47778 6.47778 2 12 2ZM10.8111 18.1111C10.8111 16.0843 12.451 14.4444 14.4778 14.4444H16.4444C18.4065 14.4444 20 12.851 20 10.8889C20 7.1392 16.4677 4 12 4C7.58235 4 4 7.58235 4 12C4 16.19 7.2226 19.6285 11.324 19.9718C10.9948 19.4168 10.8111 18.7761 10.8111 18.1111ZM7.5 12C6.67157 12 6 11.3284 6 10.5C6 9.67157 6.67157 9 7.5 9C8.32843 9 9 9.67157 9 10.5C9 11.3284 8.32843 12 7.5 12ZM16.5 12C15.6716 12 15 11.3284 15 10.5C15 9.67157 15.6716 9 16.5 9C17.3284 9 18 9.67157 18 10.5C18 11.3284 17.3284 12 16.5 12ZM12 9C11.1716 9 10.5 8.32843 10.5 7.5C10.5 6.67157 11.1716 6 12 6C12.8284 6 13.5 6.67157 13.5 7.5C13.5 8.32843 12.8284 9 12 9Z"
+            ></path>
+          </svg>
+          <h3>Graphic Designing</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A magni
+            quod autem placeat vitae repellat aliquam. Veniam qui accusamus non
+            provident harum quidem voluptates quae eaque repudiandae, incidunt
+            quod quo?
+          </p>
+          <a href="#">Read more</a>
+        </div>
+      </div>
+    </section>
+
+        <!--    PROJECTS    -->
+
+    <section class="projectsSection" id="projects">
+      <h2 class="sectionHeading" data-outline="Projects">Projects</h2>
+      <div class="allItems">
+        <div class="item">
+          <div class="left">
+            <img src="Image/project1.png" class="project1" />
+          </div>
+          <div class="right">
+            <h2 class="projectTitle">Clone Websites</h2>
+            <h3 class="projectSub-title">using HTML, CSS & JavaScript.</h3>
+            <p class="projectDesc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor
+              quidem inventore, assumenda ratione consequuntur veritatis earum
+              blanditiis sit labore accusamus dicta sint iure consectetur
+              voluptatibus neque maxime ab quos ducimus.
+            </p>
+            <a class="know-more" href="#">Know more</a>
+            <a class="preview" href="#"
+              >Preview <i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+        <div class="item">
+          <div class="left2">
+            <img src="Image/project2.jpg" class="project2" />
+          </div>
+          <div class="right2">
+            <h2 class="projectTitle">Currently don't have any</h2>
+            <h3 class="projectSub-title">soon I'll make</h3>
+            <p class="projectDesc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor
+              quidem inventore, assumenda ratione consequuntur veritatis earum
+              blanditiis sit labore accusamus dicta sint iure consectetur
+              voluptatibus neque maxime ab quos ducimus.
+            </p>
+            <a class="know-more" href="#">Know more</a>
+            <a class="preview" href="#"
+              >Preview <i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+        <div class="item">
+          <div class="left">
+            <img src="Image/project3.png" class="project1" />
+          </div>
+          <div class="right3">
+            <h2 class="projectTitle">Currently don't have any</h2>
+            <h3 class="projectSub-title">soon I'll make</h3>
+            <p class="projectDesc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor
+              quidem inventore, assumenda ratione consequuntur veritatis earum
+              blanditiis sit labore accusamus dicta sint iure consectetur
+              voluptatibus neque maxime ab quos ducimus.
+            </p>
+            <a class="know-more" href="#">Know more</a>
+            <a class="preview" href="#"
+              >Preview <i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+        <div class="projectbtn">
+          <a href="#"><button class="btn">See More</button></a>
+        </div>
+      </div>
+    </section>
+
+        <!--    ABOUT    -->
+
+    <section class="aboutSection" id="about">
+      <h2 class="sectionHeading" data-outline="About">About</h2>
+      <div class="leftCard">
+        <img src="Image/favicon.png" />
+        <p>
+          I'm a Full Stack Developer from West Bengal, India, currently coding
+          my way through a CS degree. When I'm not building or strumming my
+          guitar, you can find me enjoying a cup of chai.
+        </p>
+        <span>Anirban Banerjee</span>
+      </div>
+      <div class="rightText">
+        <h4>Greetings, I am Anirban</h4>
+        <h3>Full-Stack Web Developer</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quam
+          repellendus a unde sapiente. Nobis, id eius facere placeat alias
+          atque, assumenda quod fuga in totam rem fugit ut cum? Minus numquam ex
+          pariatur, nobis expedita, perspiciatis dicta laudantium vero placeat
+          consectetur consequatur qui. Molestiae consequuntur, recusandae beatae
+          omnis vel, optio aut distinctio voluptatibus illum unde officiis non
+          quod et?
+        </p>
+        <div class="abtBtn">
+          <a href="#" class="resume">Download Resume</a>
+          <a href="#" class="hire">Hire Me</a>
+        </div>
+      </div>
+    </section>
+
+        <!--    CONTACT    -->
+
+
+    <section class="contactSection" id="contact">
+      <h2 class="sectionHeading" data-outline="contact">Contact</h2>
+
+      <div class="leftContact">
+        <h3 class="contact-subhead">Contact Info</h3>
+        <p><i class="ri-send-plane-fill"></i>anirbanbanerjee567@gmail.com</p>
+        <p><i class="ri-phone-fill"></i>+911234567890</p>
+        <div class="contact-right">
+       
+      </div>
+      <form action="backend.php">
+          <input type="text" name="Name" class="placeholderName" required>
+          <label class="placeholder1">Name</label>
+        <input type="email" name="Email" class="placeholderEmail" required>
+        <label class="placeholder2">Email</label>
+
+        <textarea name="Message" placeholder="Your Message"  required></textarea>
+        <button type="submit" class="btn2">Send <i class="fa-solid fa-paper-plane"></i></button>
+      </form>
+    </section>
+
+        <!--     FOOTER      -->
+
+    <footer>
+      <div class="copyright">
+        <p> &copy; Copyright 2024 Anirban. All right Reserved </p>
+      </div>
+    </footer>
+   
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
