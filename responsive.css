@@ -69,7 +69,7 @@
 
   .right2 {
     padding: 1.5vw 1vw 1vw 2vw;
-    top: 65vw;
+    top: 3vw;
   }
 
   .right2 h2 {
@@ -193,6 +193,138 @@
   }
 }
 
+@media (max-width: 1151px) {
+  .socials a {
+    font-size: 1.7rem;
+  }
+
+  .left {
+    height: 37vw;
+    width: 36vw;
+  }
+
+  .left img {
+    height: 38vw;
+    width: 36vw;
+  }
+
+  .right {
+    height: 30vw;
+    width: 34vw;
+    padding: 2vw 1.5vw 0vw 2vw;
+  }
+
+  .right h2 {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    font-size: 1.4rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .right h3 {
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 1.1rem;
+  }
+
+  .right p {
+    color: #48464b;
+    margin-bottom: 3vw;
+    font-size: 0.9rem;
+  }
+
+  .right a {
+    padding: 0.4rem 1.3rem;
+    margin-right: 0.5rem;
+    text-decoration: none;
+    border-radius: 50px;
+  }
+
+  .left2 {
+    height: 37vw;
+    width: 36vw;
+  }
+
+  .left2 img {
+    height: 38vw;
+    width: 36vw;
+  }
+
+  .right2 {
+    height: 30vw;
+    width: 34vw;
+    padding: 2vw 1.5vw 0vw 2vw;
+  }
+
+  .right2 h2 {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    font-size: 1.4rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .right2 h3 {
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 1.1rem;
+  }
+
+  .right2 p {
+    color: #48464b;
+    margin-bottom: 3vw;
+    font-size: 0.9rem;
+  }
+
+  .right2 a {
+    padding: 0.4rem 1.3rem;
+    margin-right: 0.5rem;
+    text-decoration: none;
+    border-radius: 50px;
+  }
+
+  .leftCard {
+    width: 27vw;
+    height: 35vw;
+    top: 10vw;
+    left: -5vw;
+    text-align: center;
+  }
+
+  .leftCard img {
+    margin-top: 2vw;
+    width: 8vw;
+    height: 8vw;
+  }
+
+  .placeholder1 {
+    top: 0.24vw;
+  }
+
+  input:focus + .placeholder1 {
+    transform: translateY(-65%);
+  }
+
+  .placeholder2 {
+    top: 5.28vw;
+  }
+
+  input:focus + .placeholder2 {
+    transform: translateY(-65%);
+  }
+
+  form button {
+    width: 10vw;
+    height: 3.5vw;
+    font-size: 1.1rem;
+  }
+
+  form button i {
+    font-size: 1.1rem;
+  }
+}
+
 @media (max-width: 991px) {
   .navToggle {
     display: block;
@@ -240,8 +372,6 @@
     font-size: 1.8rem;
   }
 
-  /*     SERVICES      */
-
   .sectionHeading {
     font-size: 4.5rem;
   }
@@ -249,5 +379,80 @@
   .servicesLists .list {
     width: 35vw;
     height: 50vw;
+  }
+}
+
+@media (max-width: 908px) {
+  .item {
+    margin-bottom: 20vw;
+  }
+
+  .left {
+    height: 41vw;
+    width: 40vw;
+  }
+
+  .left img {
+    height: 42vw;
+    width: 40vw;
+  }
+
+  .right {
+    height: 32vw;
+    width: 36vw;
+    right: 15vw;
+    padding: 2vw 1.5vw 0vw 2vw;
+  }
+
+  .left2 {
+    height: 41vw;
+    width: 40vw;
+  }
+
+  .left2 img {
+    height: 42vw;
+    width: 40vw;
+  }
+
+  .right2 {
+    height: 32vw;
+    width: 36vw;
+    left: 23vw;
+    padding: 2vw 1.5vw 0vw 2vw;
+  }
+
+  .right2 h2 {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    font-size: 1.4rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .right2 h3 {
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 1.1rem;
+  }
+
+  .right2 p {
+    color: #48464b;
+    margin-bottom: 3vw;
+    font-size: 0.9rem;
+  }
+
+  .right2 a {
+    padding: 0.4rem 1.3rem;
+    margin-right: 0.5rem;
+    text-decoration: none;
+    border-radius: 50px;
+  }
+
+  .btn {
+    padding: 1.5vw 3.5vw;
+  }
+
+  .leftCard {
+    margin-top: -10vw;
   }
 }

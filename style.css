@@ -403,7 +403,7 @@ body {
   width: 29vw;
   height: 25vw;
   position: absolute;
-  right: 25vw;
+  right: 25.2vw;
   top: 3vw;
   padding: 3vw 1.5vw 1vw 2vw;
   border-radius: 10px;
@@ -497,7 +497,7 @@ body {
   width: 29vw;
   height: 25vw;
   position: absolute;
-  left: 25vw;
+  left: 25.2vw;
   top: 3vw;
   padding: 3vw 1.5vw 1vw 2vw;
   border-radius: 10px;
@@ -561,6 +561,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  text-align: center;
   width: 22vw;
   height: 28vw;
   padding: 2vw;
@@ -764,7 +765,7 @@ form button:hover {
   background-color: #fff;
   top: 0.6vw;
   left: 1vw;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 }
 
 input:focus + .placeholder1 {
