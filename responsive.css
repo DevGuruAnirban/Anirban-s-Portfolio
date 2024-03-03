@@ -1,11 +1,24 @@
-@media (max-width: 1451px) {
+@media (max-width: 1452px) {
+  /*   ==========HERO===========   */
+
   .heroImg {
     top: 13vw;
     right: 9vw;
   }
+
+  /*   ==========SERVICES===========   */
+
   .sectionHeading {
     margin-top: 10vw;
   }
+
+  .list1 p,
+  .list2 p,
+  .list3 p {
+    margin-bottom: 1rem;
+  }
+
+  /*   ==========PROJECTS===========   */
 
   .right {
     padding: 2vw 1vw 1vw 1.5vw;
@@ -30,21 +43,11 @@
   .right2 a {
     padding: 0.5rem 2rem;
   }
-
-  .right3 {
-    padding: 2vw 1vw 1vw 1.5vw;
-  }
-
-  .right3 p {
-    font-size: 1rem;
-  }
-
-  .right3 a {
-    padding: 0.5rem 2rem;
-  }
 }
 
-@media (max-width: 1348px) {
+@media (max-width: 1349px) {
+  /*   ==========PROJECTS===========   */
+
   .right {
     padding: 1.5vw 1vw 1vw 2vw;
     top: 3vw;
@@ -89,20 +92,44 @@
     padding: 0.4rem 1.5rem;
   }
 
+  /*   ==========ABOUT===========   */
+
   .leftCard {
     padding: 1vw;
   }
 
-  .list {
-    width: 30vw;
-    height: 30vw;
+  /*   ==========SERVICES===========   */
+
+  .list1 svg {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .list2 svg {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .list3 svg {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .list1 p,
+  .list2 p,
+  .list3 p {
+    margin-bottom: 1rem;
   }
 }
 
 @media screen and (max-width: 1247px) {
+  /*   ==========NAVIGATION===========   */
+
   .navBar {
     height: 4vw;
   }
+
+  /*   ==========HERO===========   */
 
   .heroSection {
     padding: 8rem 10rem;
@@ -119,9 +146,19 @@
     width: 25vw;
   }
 
+  /*   ==========SERVICES===========   */
+
   .list {
     width: 20vw;
   }
+
+  .list1 p,
+  .list2 p,
+  .list3 p {
+    margin-bottom: 1rem;
+  }
+
+  /*   ==========PROJECTS===========   */
 
   .right {
     padding: 2vw 1vw;
@@ -167,6 +204,8 @@
     padding: 0.4rem 1rem;
   }
 
+  /*   ==========ABOUT===========   */
+
   .aboutSection {
     padding: 0 12rem;
   }
@@ -175,6 +214,8 @@
     position: relative;
     top: 3vw;
   }
+
+  /*   ==========CONTACT===========   */
 
   .contactSection {
     margin: -4vw;
@@ -194,9 +235,13 @@
 }
 
 @media (max-width: 1151px) {
+  /*   ==========HERO===========   */
+
   .socials a {
     font-size: 1.7rem;
   }
+
+  /*   ==========PROJECTS===========   */
 
   .left {
     height: 37vw;
@@ -284,6 +329,8 @@
     border-radius: 50px;
   }
 
+  /*   ==========ABOUT===========   */
+
   .leftCard {
     width: 27vw;
     height: 35vw;
@@ -297,6 +344,8 @@
     width: 8vw;
     height: 8vw;
   }
+
+  /*   ==========CONTACT===========   */
 
   .placeholder1 {
     top: 0.24vw;
@@ -325,7 +374,102 @@
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1120px) {
+  /*   ==========SERVICES===========   */
+
+  .list1,
+  .list2,
+  .list3 {
+    width: 30%;
+  }
+
+  .list1 p,
+  .list2 p,
+  .list3 p {
+    margin-bottom: 1rem;
+  }
+
+  svg {
+    width: 4vw;
+    height: 4vw;
+  }
+}
+
+@media (max-width: 1025px) {
+  /*   ==========PROJECTS===========   */
+
+  .right a {
+    padding: 0.4rem 1rem;
+    margin-right: 0.5rem;
+    text-decoration: none;
+    border-radius: 50px;
+  }
+
+  .right2 a {
+    padding: 0.4rem 1rem;
+    margin-right: 0.5rem;
+    text-decoration: none;
+    border-radius: 50px;
+  }
+}
+
+@media (max-width: 1009px) {
+  /*   ==========HERO===========   */
+
+  .heroSection {
+    padding: 5rem 5rem;
+  }
+
+  .heroImg {
+    width: 31vw;
+    right: 6vw;
+    top: 12vw;
+  }
+
+  .socials a {
+    width: 4vw;
+    height: 4vw;
+  }
+
+  /*   ==========CONTACT===========   */
+
+  .placeholder1,
+  .placeholder2 {
+    font-size: 1rem;
+  }
+
+  form input {
+    padding: 0 7vw;
+  }
+
+  /*   ==========PROJECTS===========   */
+
+  .item {
+    margin-bottom: 20vw;
+  }
+  .left,
+  .left img {
+    height: 40vw;
+    width: 39vw;
+  }
+
+  .right,
+  .right2 {
+    height: 33vw;
+    width: 37vw;
+    padding: 2vw 1.5vw 0vw 2vw;
+  }
+
+  .left2,
+  .left2 img {
+    height: 40vw;
+    width: 39vw;
+  }
+}
+
+@media (max-width: 992px) {
+  /*   ==========NAVIGATION===========   */
+
   .navToggle {
     display: block;
     margin-top: 2px;
@@ -347,6 +491,8 @@
     width: 22vw;
     height: 5vw;
   }
+
+  /*   ==========HERO===========   */
 
   .heroSection {
     padding: 5rem 5rem;
@@ -372,87 +518,240 @@
     font-size: 1.8rem;
   }
 
+  /*   ==========SERVICES===========   */
+
   .sectionHeading {
     font-size: 4.5rem;
   }
 
-  .servicesLists .list {
-    width: 35vw;
-    height: 50vw;
+  .list1,
+  .list2,
+  .list3 {
+    width: 30%;
+    padding: 1.2vw;
+  }
+
+  .list1,
+  .list2,
+  .list3 p {
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+  }
+
+  .list1 h3,
+  .list2 h3,
+  .list3 h3 {
+    font-size: 1.2rem;
   }
 }
 
-@media (max-width: 908px) {
+@media (max-width: 948px) {
+  .servicesHeading {
+    margin-top: 20vw;
+  }
+
+  .aboutHeading {
+    margin: 10vw 0 -1vw 0;
+  }
+
+  .contactHeading {
+    margin-bottom: 10vw;
+  }
+
+  /*   ==========CONTACT===========   */
+
+  .leftContact h3 {
+    font-size: 2.5rem;
+  }
+
+  .leftContact p {
+    font-size: 1.1rem;
+  }
+
+  .leftContact p i {
+    font-size: 1.5rem;
+  }
+
+  form {
+    margin-top: -20vw;
+  }
+}
+
+@media (max-width: 917px) {
+  /*   ==========PROJECTS===========   */
+
   .item {
     margin-bottom: 20vw;
   }
-
-  .left {
-    height: 41vw;
-    width: 40vw;
+  .left,
+  .left img {
+    height: 40vw;
+    width: 39vw;
   }
 
-  .left img {
+  .right,
+  .right2 {
+    height: 33vw;
+    width: 37vw;
+    padding: 1.5vw 1.2vw 0vw 2vw;
+  }
+
+  .left2,
+  .left2 img {
+    height: 40vw;
+    width: 39vw;
+  }
+}
+
+@media (max-width: 909px) {
+  /*   ==========SERVICES===========   */
+  .list1,
+  .list2,
+  .list3 {
+    padding: 1vw;
+  }
+
+  .list1 p,
+  .list2 p,
+  .list3 p {
+    margin-bottom: 1rem;
+  }
+  /*   ==========PROJECTS===========   */
+
+  .item {
+    margin-bottom: 20vw;
+    padding: 0 20vw;
+  }
+
+  .left,
+  .left2 {
+    width: 41vw;
     height: 42vw;
-    width: 40vw;
+  }
+
+  .left img,
+  .left2 img {
+    width: 41vw;
+    height: 43vw;
   }
 
   .right {
-    height: 32vw;
-    width: 36vw;
-    right: 15vw;
-    padding: 2vw 1.5vw 0vw 2vw;
-  }
-
-  .left2 {
-    height: 41vw;
-    width: 40vw;
-  }
-
-  .left2 img {
-    height: 42vw;
-    width: 40vw;
+    right: 20.2vw;
   }
 
   .right2 {
-    height: 32vw;
-    width: 36vw;
-    left: 23vw;
-    padding: 2vw 1.5vw 0vw 2vw;
+    left: 20.2vw;
   }
 
-  .right2 h2 {
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    word-spacing: 1px;
-    font-size: 1.4rem;
-    margin-bottom: 0.4rem;
-  }
-
-  .right2 h3 {
-    font-weight: 500;
-    font-size: 1.2rem;
-    margin-bottom: 1.1rem;
-  }
-
-  .right2 p {
-    color: #48464b;
-    margin-bottom: 3vw;
-    font-size: 0.9rem;
-  }
-
-  .right2 a {
-    padding: 0.4rem 1.3rem;
-    margin-right: 0.5rem;
-    text-decoration: none;
-    border-radius: 50px;
+  .right,
+  .right2 {
+    width: 39vw;
+    height: 35vw;
   }
 
   .btn {
     padding: 1.5vw 3.5vw;
   }
 
-  .leftCard {
-    margin-top: -10vw;
+  /*   ==========ABOUT===========   */
+
+  .aboutSection {
+    padding: 0 10rem;
   }
+
+  .leftCard {
+    width: 30vw;
+    height: 36vw;
+    left: -11vw;
+    top: 15vw;
+  }
+
+  .rightText {
+    width: 50vw;
+  }
+
+  /*   ==========CONTACT===========   */
+  .placeholder1,
+  .placeholder2 {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 859px) {
+  /*   ==========HERO===========   */
+  .socials a {
+    width: 5vw;
+    height: 4.9vw;
+  }
+
+  /*   ==========SERVICES===========   */
+
+  .list1,
+  .list2,
+  .list3 {
+    width: 39%;
+    padding: 2vw 3vw;
+  }
+
+  .list3 {
+    margin-top: 3rem;
+  }
+
+  /*   ==========PROJECTS===========   */
+
+  .item {
+    margin-bottom: 25vw;
+    padding: 0 20vw;
+  }
+
+  .left,
+  .left2 {
+    width: 41vw;
+    height: 45vw;
+  }
+
+  .left img,
+  .left2 img {
+    width: 41vw;
+    height: 46vw;
+  }
+
+  .right,
+  .right2 {
+    width: 39vw;
+    height: 38vw;
+    padding: 1vw;
+  }
+
+  .right a,
+  .right2 a {
+    padding: 0.4rem 0.9rem;
+  }
+
+  .btn {
+    padding: 1.2vw 3.5vw;
+  }
+
+  /*   ==========ABOUT===========   */
+
+  .leftCard {
+    height: 40vw;
+  }
+
+  /*   ==========CONTACT===========   */
+  .leftContact h3 {
+    font-size: 2rem;
+  }
+
+  .leftContact p {
+    font-size: 1.05rem;
+  }
+
+  /*   ==========FOOTER===========   */
+  .copyright p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 825px) {
 }
