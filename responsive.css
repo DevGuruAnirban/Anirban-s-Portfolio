@@ -20,26 +20,17 @@
 
   /*   ==========PROJECTS===========   */
 
-  .right {
-    padding: 2vw 1vw 1vw 1.5vw;
-  }
-
-  .right p {
-    font-size: 1rem;
-  }
-
-  .right a {
-    padding: 0.5rem 2rem;
-  }
-
+  .right,
   .right2 {
     padding: 2vw 1vw 1vw 1.5vw;
   }
 
+  .right p,
   .right2 p {
     font-size: 1rem;
   }
 
+  .right a,
   .right2 a {
     padding: 0.5rem 2rem;
   }
@@ -48,50 +39,32 @@
 @media (max-width: 1349px) {
   /*   ==========PROJECTS===========   */
 
-  .right {
-    padding: 1.5vw 1vw 1vw 2vw;
-    top: 3vw;
-  }
-
-  .right h2 {
-    font-size: 1.3rem;
-  }
-
-  .right h3 {
-    font-size: 1rem;
-  }
-
-  .right p {
-    font-size: 1rem;
-    font-size: 0.9rem;
-  }
-
-  .right a {
-    padding: 0.4rem 1.5rem;
-  }
-
+  .right,
   .right2 {
     padding: 1.5vw 1vw 1vw 2vw;
     top: 3vw;
   }
 
+  .right h2,
   .right2 h2 {
     font-size: 1.3rem;
   }
 
+  .right h3,
   .right2 h3 {
     font-size: 1rem;
   }
 
+  .right p,
   .right2 p {
     font-size: 1rem;
     font-size: 0.9rem;
   }
 
+  .right a,
   .right2 a {
     padding: 0.4rem 1.5rem;
   }
-
   /*   ==========ABOUT===========   */
 
   .leftCard {
@@ -100,16 +73,8 @@
 
   /*   ==========SERVICES===========   */
 
-  .list1 svg {
-    width: 3rem;
-    height: 3rem;
-  }
-
-  .list2 svg {
-    width: 3rem;
-    height: 3rem;
-  }
-
+  .list1 svg,
+  .list2 svg,
   .list3 svg {
     width: 3rem;
     height: 3rem;
@@ -160,45 +125,28 @@
 
   /*   ==========PROJECTS===========   */
 
-  .right {
-    padding: 2vw 1vw;
-    top: 3vw;
-  }
-
-  .right h2 {
-    font-size: 1.2rem;
-  }
-
-  .right h3 {
-    font-size: 1rem;
-  }
-
-  .right p {
-    font-size: 0.8rem;
-  }
-
-  .right a {
-    margin: 0 0.3rem;
-    padding: 0.4rem 1rem;
-  }
-
+  .right,
   .right2 {
     padding: 2vw 1vw;
     top: 3vw;
   }
 
+  .right h2,
   .right2 h2 {
     font-size: 1.2rem;
   }
 
+  .right h3,
   .right2 h3 {
     font-size: 1rem;
   }
 
+  .right p,
   .right2 p {
     font-size: 0.8rem;
   }
 
+  .right a,
   .right2 a {
     margin: 0 0.3rem;
     padding: 0.4rem 1rem;
@@ -243,65 +191,26 @@
 
   /*   ==========PROJECTS===========   */
 
-  .left {
-    height: 37vw;
-    width: 36vw;
-  }
-
-  .left img {
-    height: 38vw;
-    width: 36vw;
-  }
-
-  .right {
-    height: 30vw;
-    width: 34vw;
-    padding: 2vw 1.5vw 0vw 2vw;
-  }
-
-  .right h2 {
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    word-spacing: 1px;
-    font-size: 1.4rem;
-    margin-bottom: 0.4rem;
-  }
-
-  .right h3 {
-    font-weight: 500;
-    font-size: 1.2rem;
-    margin-bottom: 1.1rem;
-  }
-
-  .right p {
-    color: #48464b;
-    margin-bottom: 3vw;
-    font-size: 0.9rem;
-  }
-
-  .right a {
-    padding: 0.4rem 1.3rem;
-    margin-right: 0.5rem;
-    text-decoration: none;
-    border-radius: 50px;
-  }
-
+  .left,
   .left2 {
     height: 37vw;
     width: 36vw;
   }
 
+  .left img,
   .left2 img {
     height: 38vw;
     width: 36vw;
   }
 
+  .right,
   .right2 {
     height: 30vw;
     width: 34vw;
     padding: 2vw 1.5vw 0vw 2vw;
   }
 
+  .right h2,
   .right2 h2 {
     font-weight: 600;
     letter-spacing: 0.5px;
@@ -310,18 +219,21 @@
     margin-bottom: 0.4rem;
   }
 
+  .right h3,
   .right2 h3 {
     font-weight: 500;
     font-size: 1.2rem;
     margin-bottom: 1.1rem;
   }
 
+  .right p,
   .right2 p {
     color: #48464b;
     margin-bottom: 3vw;
     font-size: 0.9rem;
   }
 
+  .right a,
   .right2 a {
     padding: 0.4rem 1.3rem;
     margin-right: 0.5rem;
@@ -398,13 +310,7 @@
 @media (max-width: 1025px) {
   /*   ==========PROJECTS===========   */
 
-  .right a {
-    padding: 0.4rem 1rem;
-    margin-right: 0.5rem;
-    text-decoration: none;
-    border-radius: 50px;
-  }
-
+  .right a,
   .right2 a {
     padding: 0.4rem 1rem;
     margin-right: 0.5rem;
