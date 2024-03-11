@@ -271,7 +271,6 @@ nav {
   display: flex;
   justify-content: center;
   transform: scale(1);
-  filter: drop-shadow(0px 0px 10px #00434694);
 }
 
 .aboutBtn a:hover {
@@ -512,4 +511,32 @@ nav {
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
   border-right: 15px solid #9ab2ff;
+}
+
+/*==========PROJECTS SECTION==========*/
+#work {
+  margin-top: 10vw;
+}
+
+.projectFilter {
+  display: flex;
+  width: 80%;
+  margin: -5vw auto;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid #9b9b9b; */
+  flex-wrap: wrap;
+}
+
+.projectFilter li {
+  list-style-type: none;
+  padding: 1vw 2vw;
+  color: #9b9b9b;
+  cursor: pointer;
+  user-select: none;
+}
+
+.projectFilter-active {
+  color: #0b1215;
+  background-color: #9b9b9b;
 }
