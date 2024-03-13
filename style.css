@@ -422,7 +422,7 @@ nav {
 /*=========EXPERIENCE SECTION==========*/
 
 .experience {
-  margin-top: 10vw;
+  margin: 10vw 0 20vw 0;
   position: relative;
   padding: 0 10rem;
 }
@@ -434,7 +434,7 @@ nav {
 
 .container {
   padding: 10px 50px;
-  margin-top: -3vw;
+  margin: -3vw 0 5vw 0;
   width: 40vw;
   position: relative;
 }
@@ -474,7 +474,7 @@ nav {
   position: absolute;
   left: 50.55%;
   width: 6px;
-  height: 80%;
+  height: 100%;
   background-color: #9ab2ff;
   animation: movingline 5s linear forwards;
 }
@@ -485,7 +485,7 @@ nav {
   }
 
   100% {
-    height: 80%;
+    height: 100%;
   }
 }
 
@@ -516,27 +516,45 @@ nav {
 /*==========PROJECTS SECTION==========*/
 #work {
   margin-top: 10vw;
+  padding: 5rem 10rem;
 }
 
 .projectFilter {
   display: flex;
   width: 80%;
-  margin: -5vw auto;
+  margin: -5vw auto 8vw auto;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid #9b9b9b; */
   flex-wrap: wrap;
 }
 
-.projectFilter li {
+.projectFilter .list {
   list-style-type: none;
-  padding: 1vw 2vw;
+  padding: 0.2vw 1vw;
   color: #9b9b9b;
   cursor: pointer;
   user-select: none;
 }
 
 .projectFilter-active {
+  list-style-type: none;
+  padding: 0.2vw 1vw;
+  border-radius: 20px;
   color: #0b1215;
-  background-color: #9b9b9b;
+  background-color: #9ab2ff;
+}
+
+.projectContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #004346;
+  height: auto;
+  width: 100%;
+}
+
+.projectBox img {
+  z-index: 10;
+  width: 20vw;
 }
